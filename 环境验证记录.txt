@@ -1,0 +1,59 @@
+环境验证记录 · 企业风险评估系统（实训项目1）
+生成时间: 2026-11-02 22:09:59
+================================================================
+[1] Python 版本与路径
+Python 3.11.9
+C:\Users\34701\AppData\Local\Microsoft\WindowsApps\python.exe
+C:\Users\34701\AppData\Local\Python\bin\python.exe
+
+[2] 虚拟环境
+venv 路径: D:\risk_project\venv
+prefix: D:\risk_project\venv
+
+[3] pip 与依赖清单
+pip 26.2.2 from D:\risk_project\venv\Lib\site-packages\pip (python 3.11)
+---- requirements.txt ----
+asgiref==3.13.0
+certifi==2026.10.23
+charset-normalizer==3.5.2
+Django==4.2
+fonttools==4.68.0
+fpdf2==2.9.0
+idna==3.20
+numpy==2.4.6
+pandas==3.1.0
+pillow==13.0.0
+PyMySQL==1.2.3
+python-dateutil==4.0.0
+requests==2.34.2
+sqlparse==0.6.1
+tzdata==2026.6
+urllib3==2.8.0
+
+[4] 关键依赖版本
+Python 3.11.9
+Django 4.2
+pandas 3.1.0
+PyMySQL 2.2.8
+fpdf2 2.9.0
+
+[5] MySQL
+version
+8.0.28
+Database
+information_schema
+risk_assessment
+
+[6] 数据库连接测试
+  MySQL 连接测试 · 企业风险评估系统
+============================================================
+目标：risk_user@127.0.0.1:3306/risk_assessment
+[成功] MySQL 版本：8.0.28
+[成功] 当前数据库：risk_assessment
+[成功] 可见数据库（2 个）：information_schema, risk_assessment
+[权限]
+   GRANT USAGE ON *.* TO `risk_user`@`localhost`
+   GRANT ALL PRIVILEGES ON `risk_assessment`.* TO `risk_user`@`localhost`
+[字符集] ('character_set_server', 'utf8mb4')
+============================================================
+  连接测试通过
